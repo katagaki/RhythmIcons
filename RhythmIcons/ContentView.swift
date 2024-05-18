@@ -22,6 +22,8 @@ struct ContentView: View {
                             .resizable()
                         Image("Ongeki.Glyph.1")
                             .resizable()
+                        Image("Ongeki.Glyph.2")
+                            .resizable()
                         Image("SDVX.Glyph.1")
                             .resizable()
                         Image("SDVX.Glyph.2")
