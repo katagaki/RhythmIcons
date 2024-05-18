@@ -44,6 +44,7 @@ struct ContentView: View {
                 ListRow(image: "Chunithm.5", title: "シンプルコントローラー（ロゴマーク付き）")
                 ListRow(image: "Chunithm.6", title: "シンプルコントローラー（ロゴマークなし）")
                 ListRow(image: "Chunithm.7", title: "ロゴマークのみ")
+                ListRow(image: "Chunithm.8", title: "ロゴのみ")
             } header: {
                 Text(verbatim: "チュウニズム")
                     .textCase(.none)
@@ -69,7 +70,8 @@ struct ContentView: View {
             Section {
                 ListRow(image: "Ongeki.1", title: "カラー付き")
                 ListRow(image: "Ongeki.2", title: "カラーなし")
-                ListRow(image: "Ongeki.3", title: "ロゴマークのみ")
+                ListRow(image: "Ongeki.3", title: "ロゴのみ")
+                ListRow(image: "Ongeki.4", title: "ロゴのみ（背景なし）")
             } header: {
                 Text(verbatim: "オンゲキ")
                     .textCase(.none)
