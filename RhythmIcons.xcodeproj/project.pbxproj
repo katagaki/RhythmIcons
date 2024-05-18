@@ -11,6 +11,8 @@
 		E4B1238D2BF8784200D4A3D1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B1238C2BF8784200D4A3D1 /* ContentView.swift */; };
 		E4B1238F2BF8784400D4A3D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4B1238E2BF8784400D4A3D1 /* Assets.xcassets */; };
 		E4B1239A2BF878F900D4A3D1 /* Komponents in Frameworks */ = {isa = PBXBuildFile; productRef = E4B123992BF878F900D4A3D1 /* Komponents */; };
+		E4B1239D2BF8A20C00D4A3D1 /* TemplateIconsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B1239C2BF8A20C00D4A3D1 /* TemplateIconsView.swift */; };
+		E4B1239F2BF8A23300D4A3D1 /* ListIconsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B1239E2BF8A23300D4A3D1 /* ListIconsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +20,8 @@
 		E4B1238A2BF8784200D4A3D1 /* RhythmIconsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RhythmIconsApp.swift; sourceTree = "<group>"; };
 		E4B1238C2BF8784200D4A3D1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E4B1238E2BF8784400D4A3D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E4B1239C2BF8A20C00D4A3D1 /* TemplateIconsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateIconsView.swift; sourceTree = "<group>"; };
+		E4B1239E2BF8A23300D4A3D1 /* ListIconsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListIconsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,11 +55,21 @@
 		E4B123892BF8784200D4A3D1 /* RhythmIcons */ = {
 			isa = PBXGroup;
 			children = (
+				E4B1239B2BF8A1FD00D4A3D1 /* Tab Views */,
 				E4B1238A2BF8784200D4A3D1 /* RhythmIconsApp.swift */,
 				E4B1238C2BF8784200D4A3D1 /* ContentView.swift */,
 				E4B1238E2BF8784400D4A3D1 /* Assets.xcassets */,
 			);
 			path = RhythmIcons;
+			sourceTree = "<group>";
+		};
+		E4B1239B2BF8A1FD00D4A3D1 /* Tab Views */ = {
+			isa = PBXGroup;
+			children = (
+				E4B1239C2BF8A20C00D4A3D1 /* TemplateIconsView.swift */,
+				E4B1239E2BF8A23300D4A3D1 /* ListIconsView.swift */,
+			);
+			path = "Tab Views";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,6 +148,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4B1238D2BF8784200D4A3D1 /* ContentView.swift in Sources */,
+				E4B1239F2BF8A23300D4A3D1 /* ListIconsView.swift in Sources */,
+				E4B1239D2BF8A20C00D4A3D1 /* TemplateIconsView.swift in Sources */,
 				E4B1238B2BF8784200D4A3D1 /* RhythmIconsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
