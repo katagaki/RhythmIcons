@@ -12,6 +12,29 @@ struct ContentView: View {
     var body: some View {
         List {
             Section {
+                HStack {
+                    Group {
+                        Image("Chunithm.Glyph.1")
+                            .resizable()
+                        Image("IIDX.Glyph.1")
+                            .resizable()
+                        Image("Maimai.Glyph.1")
+                            .resizable()
+                        Image("Ongeki.Glyph.1")
+                            .resizable()
+                        Image("SDVX.Glyph.1")
+                            .resizable()
+                        Image("SDVX.Glyph.2")
+                            .resizable()
+                        Image("Taiko.Glyph.1")
+                            .resizable()
+                    }
+                    .scaledToFit()
+                    .frame(height: 28.0)
+                    .frame(maxWidth: .infinity)
+                }
+            }
+            Section {
                 ListRow(image: "Chunithm.1", title: "ロゴマーク付き")
                 ListRow(image: "Chunithm.2", title: "ロゴマークなし")
                 ListRow(image: "Chunithm.3", title: "コントローラーサイズアップ（ロゴマーク付き）")
