@@ -25,15 +25,6 @@ struct ListIconsView: View {
                     .textCase(.none)
             }
             Section {
-                ListRow(image: "IIDX.1", title: "クラシック")
-                ListRow(image: "IIDX.2", title: "シンプル１")
-                ListRow(image: "IIDX.3", title: "シンプル２")
-                ListRow(image: "IIDX.4", title: "EPOLIS")
-            } header: {
-                Text(verbatim: "beatmaniaIIDX")
-                    .textCase(.none)
-            }
-            Section {
                 ListRow(image: "Maimai.1", title: "でらっくま１")
                 ListRow(image: "Maimai.2", title: "でらっくま２")
                 ListRow(image: "Maimai.3", title: "でらっくま３")
@@ -52,6 +43,22 @@ struct ListIconsView: View {
                     .textCase(.none)
             }
             Section {
+                ListRow(image: "Taiko.1", title: "カラー１")
+                ListRow(image: "Taiko.2", title: "カラー２")
+            } header: {
+                Text(verbatim: "太鼓の達人")
+                    .textCase(.none)
+            }
+            Section {
+                ListRow(image: "IIDX.1", title: "クラシック")
+                ListRow(image: "IIDX.2", title: "シンプル１")
+                ListRow(image: "IIDX.3", title: "シンプル２")
+                ListRow(image: "IIDX.4", title: "EPOLIS")
+            } header: {
+                Text(verbatim: "beatmaniaIIDX")
+                    .textCase(.none)
+            }
+            Section {
                 ListRow(image: "SDVX.1", title: "ロゴマーク付き")
                 ListRow(image: "SDVX.2", title: "ロゴマークなし")
                 ListRow(image: "SDVX.3", title: "EXCEED GEAR")
@@ -63,16 +70,16 @@ struct ListIconsView: View {
                     .textCase(.none)
             }
             Section {
-                ListRow(image: "Taiko.1", title: "カラー１")
-                ListRow(image: "Taiko.2", title: "カラー２")
-            } header: {
-                Text(verbatim: "太鼓の達人")
-                    .textCase(.none)
-            }
-            Section {
                 ListRow(image: "Popn.1", title: "カラフル１")
             } header: {
                 Text(verbatim: "pop'n music")
+                    .textCase(.none)
+            }
+            Section {
+                ListRow(image: "Polaris.1", title: "ダーク１")
+                ListRow(image: "Polaris.2", title: "ライト２")
+            } header: {
+                Text(verbatim: "ポラリスコード")
                     .textCase(.none)
             }
         }
