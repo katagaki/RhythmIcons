@@ -11,6 +11,7 @@
 		E4B1238D2BF8784200D4A3D1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B1238C2BF8784200D4A3D1 /* ContentView.swift */; };
 		E4B1238F2BF8784400D4A3D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4B1238E2BF8784400D4A3D1 /* Assets.xcassets */; };
 		E4B123922BF8784400D4A3D1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4B123912BF8784400D4A3D1 /* Preview Assets.xcassets */; };
+		E4B1239A2BF878F900D4A3D1 /* Komponents in Frameworks */ = {isa = PBXBuildFile; productRef = E4B123992BF878F900D4A3D1 /* Komponents */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4B1239A2BF878F900D4A3D1 /* Komponents in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +85,9 @@
 			dependencies = (
 			);
 			name = RhythmIcons;
+			packageProductDependencies = (
+				E4B123992BF878F900D4A3D1 /* Komponents */,
+			);
 			productName = RhythmIcons;
 			productReference = E4B123872BF8784200D4A3D1 /* RhythmIcons.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +116,9 @@
 				Base,
 			);
 			mainGroup = E4B1237E2BF8784200D4A3D1;
+			packageReferences = (
+				E4B123982BF878F900D4A3D1 /* XCRemoteSwiftPackageReference "Komponents" */,
+			);
 			productRefGroup = E4B123882BF8784200D4A3D1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -344,6 +352,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E4B123982BF878F900D4A3D1 /* XCRemoteSwiftPackageReference "Komponents" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/katagaki/Komponents";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E4B123992BF878F900D4A3D1 /* Komponents */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E4B123982BF878F900D4A3D1 /* XCRemoteSwiftPackageReference "Komponents" */;
+			productName = Komponents;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E4B1237F2BF8784200D4A3D1 /* Project object */;
 }
