@@ -69,6 +69,12 @@ struct ListIconsView: View {
                 Text(verbatim: "太鼓の達人")
                     .textCase(.none)
             }
+            Section {
+                ListRow(image: "Popn.1", title: "カラフル１")
+            } header: {
+                Text(verbatim: "pop'n music")
+                    .textCase(.none)
+            }
         }
     }
 }

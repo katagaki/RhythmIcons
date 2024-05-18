@@ -25,6 +25,8 @@ struct TemplateIconsView: View {
                             .resizable()
                         Image("SDVX.Glyph.1")
                             .resizable()
+                        Image("Popn.Glyph.1")
+                            .resizable()
                     }
                     .scaledToFit()
                     .frame(height: 28.0)
@@ -48,6 +50,8 @@ struct TemplateIconsView: View {
                         Image("IIDX.LogoGlyph.1")
                             .resizable()
                         Image("SDVX.LogoGlyph.1")
+                            .resizable()
+                        Image("Popn.LogoGlyph.1")
                             .resizable()
                     }
                     .scaledToFit()
