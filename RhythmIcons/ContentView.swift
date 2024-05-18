@@ -52,9 +52,9 @@ struct ContentView: View {
             Section {
                 ListRow(image: "SDVX.1", title: "ロゴマーク付き")
                 ListRow(image: "SDVX.2", title: "ロゴマークなし")
-                ListRow(image: "SDVX.3", title: "ロゴカラー１")
-                ListRow(image: "SDVX.4", title: "ロゴカラー２")
-                ListRow(image: "SDVX.5", title: "ロゴカラー３")
+                ListRow(image: "SDVX.3", title: "EXCEED GEAR")
+                ListRow(image: "SDVX.4", title: "EXCEED GEAR（ピンク）")
+                ListRow(image: "SDVX.5", title: "EXCEED GEAR（ブルー）")
                 ListRow(image: "SDVX.6", title: "ロゴマークのみ")
             } header: {
                 Text(verbatim: "SOUND VOLTEX")
